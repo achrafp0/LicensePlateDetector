@@ -20,7 +20,7 @@ ax1.imshow(license_plate, cmap="gray")
 character_dimensions = (0.35*license_plate.shape[0], 0.60*license_plate.shape[0], 0.05*license_plate.shape[1], 0.15*license_plate.shape[1])
 min_height, max_height, min_width, max_width = character_dimensions
 
-characters = []
+characters =[PW2551]
 counter=0
 column_list = []
 for regions in regionprops(labelled_plate):
