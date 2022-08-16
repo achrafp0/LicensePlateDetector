@@ -10,7 +10,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 import os
 import shutil
-filename = './video12.mp4'
+filename = car plate PW2551'
 
 if os.path.exists('output'):
     shutil.rmtree('output')
